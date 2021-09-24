@@ -1,4 +1,4 @@
-Hello, it's JavaScript Practice Repository 
+Hello, it's JavaScript little projects
 
 1) cards-slider (http://new.grandstore.by/js/01-cards)
 2) drag-n-drop (http://new.grandstore.by/js/02-drag-n-drop)
