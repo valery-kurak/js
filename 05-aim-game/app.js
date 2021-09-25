@@ -53,6 +53,13 @@ function setTime(value) {
 function finishGame() {
   timeEl.parentNode.classList.add('hide');
   board.innerHTML = `<h1>Счёт <span class="primary">${score}</span></h1>`;
+  reload();
+}
+
+function reload() {
+  setTimeout(function(){
+    window.location.reload(1);
+  }, 5000);
 }
 
 function createRandomCircle() {
